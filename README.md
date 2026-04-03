@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Riddhi - Financial Dashboard
 
-## Getting Started
+A modern, full-featured financial dashboard web application built to demonstrate
+real-world frontend skills including data visualization, authentication flows,
+form handling, and AI integration.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Pages & Routes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Unauthenticated (Public)
+| Page | Route | Notes |
+|------|-------|-------|
+| Landing Page | `/` | Entry point |
+| Auth — Login & Register | `/login` `/register` | Authentication flow |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Authenticated
+| Page | Route | Notes |
+|------|-------|-------|
+| Dashboard — Overview | `/dashboard` | Most impressive view, key metrics |
+| Accounts | `/accounts` | Core feature — account management |
+| Transactions | `/transactions` | Transaction history & filtering |
+| Transfer Money | `/transfer` | Demonstrates form mastery |
+| AI Advisor | `/advisor` | AI-powered financial insights |
+| Analytics *(tentative)* | `/analytics` | May be added based on scope |
+| Settings & Profile *(tentative)* | `/settings` | May be added based on scope |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+### Foundation
+| Tech | Purpose |
+|------|---------|
+| TypeScript | Type safety — required in 80%+ of jobs |
+| React 19 | UI framework |
+| Next.js 15 | Full-stack framework, the new standard |
+| Tailwind CSS | Fastest styling in 2026 |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### State & Data Fetching
+| Tech | Purpose |
+|------|---------|
+| TanStack Query | Replaces useEffect for API calls |
+| Zustand | Global state — replaced Redux |
+| React Hook Form + Zod | Form handling & validation |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Backend & Database
+| Tech | Purpose |
+|------|---------|
+| Next.js API Routes | Backend inside Next.js |
+| Prisma ORM | Type-safe DB queries |
+| PostgreSQL via Supabase | Database (free tier) |
 
-## Deploy on Vercel
+### Auth, Testing & DevOps
+| Tech | Purpose |
+|------|---------|
+| Clerk / NextAuth.js | Authentication |
+| Vitest + Testing Library | Modern test setup |
+| Vercel | Deployment |
+| GitHub Actions | CI/CD pipelines |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### UI Libraries
+| Tech | Purpose |
+|------|---------|
+| shadcn/ui | Component library — composable, hottest in 2026 |
+| Radix UI | Underlying shadcn primitives |
+| Recharts / Chart.js | Financial charts & graphs |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Design
+- Figma designs in progress
+- Pages designed so far: Dashboard Overview, Login
+
+---
+
+## Status
+🚧 In active development — design phase
+
+---
