@@ -5,7 +5,15 @@ real-world frontend skills including data visualization, authentication flows,
 form handling, and AI integration.
 
 ---
+## 🎨 Figma Designs
 
+**Login Page**  
+![Login Page](assets/login.png)
+
+**Dashboard Page**  
+![Dashboard Page](assets/dashboard.png)
+
+---
 ## Pages & Routes
 
 ### Unauthenticated (Public)
