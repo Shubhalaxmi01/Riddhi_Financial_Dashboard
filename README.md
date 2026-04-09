@@ -8,10 +8,10 @@ form handling, and AI integration.
 ## 🎨 Figma Designs
 
 **Login Page**  
-![Login Page](assets/login.png)
+![Login Page](assets/Riddhi_Login.png)
 
 **Dashboard Page**  
-![Dashboard Page](assets/dashboard.png)
+![Dashboard Page](assets/Riddhi_Dashboard.png)
 
 ---
 ## Pages & Routes
